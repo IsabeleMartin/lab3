@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "moduleResolution": "node",  // Use node ou nodenext dependendo da versão do TypeScript
     "module": "esnext",
     "target": "esnext",
+    "types": ["jest"],
     "strict": true,
     "jsx": "react-jsx",
     "isolatedModules": true,
