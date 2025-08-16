@@ -1,3 +1,5 @@
+/// <reference types="jest" />
+
 import { hello } from "../src/hello_world";
 
 
